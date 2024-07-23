@@ -40,3 +40,36 @@
 .read-the-docs {
   color: #888;
 }
+
+
+#primary-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin: 2em 0;
+}
+
+#primary-nav a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+#primary-nav a:hover {
+  text-decoration: underline;
+}
+
+#primary-nav a:active {
+  color: #61dafb;
+
+}
+
+#primary-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#primary-nav li {
+  display: inline;
+  margin: 0 1rem 0 0;
+  font-size: 1.25rem;
+}
