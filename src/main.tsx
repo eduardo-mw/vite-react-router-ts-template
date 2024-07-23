@@ -14,6 +14,7 @@ import ErrorPage from "./error-page.tsx";
 
 // Routes
 import Home from "./routes/home.tsx";
+import About from "./routes/about.tsx";
 
 // createBrowserRouter enables client side routing
 const router = createBrowserRouter(
@@ -21,6 +22,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<App />} errorElement={<ErrorPage />}>
       <Route errorElement={<ErrorPage />}>
         <Route index element={<Home />} />
+        <Route path="/about" element={<About />} />
       </Route>
     </Route>
   )
